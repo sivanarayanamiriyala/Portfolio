@@ -1,0 +1,103 @@
+/* Home.css */
+
+/* Main container */
+.home-container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  height: 80vh;
+  margin-bottom: 30px;
+}
+
+/* Profile picture styling */
+.profile-pic-container {
+  margin-left: 100px;
+}
+
+.profile-pic {
+  width: 30rem;
+  border-radius: 20px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+/* Text styling */
+.text-container {
+  text-align: center;
+}
+
+.intro-text {
+  color: white;
+  text-align: center;
+}
+
+/* Social Icons */
+.social-icons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.icon-link {
+  color: white;
+  font-size: 2rem;
+  margin: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.icon-link:hover {
+  color: green;
+  transform: scale(1.1); /* Increase the size by 10% */
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+  .home-container {
+    grid-template-columns: 1fr; /* Stack content vertically */
+    height: auto;
+  }
+
+  /* Move text-container above the profile-pic-container */
+  .text-container {
+    order: 1;
+  }
+
+  .profile-pic-container {
+    order: 2; /* Move image below text */
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+
+  .profile-pic {
+    width: 100%; /* Make image take full width on mobile */
+    max-width: 400px; /* Limit max width for smaller screens */
+  }
+
+  .intro-text {
+    font-size: 1.5rem; /* Adjust font size for mobile */
+  }
+
+  .icon-link {
+    font-size: 1.5rem; /* Adjust icon size for mobile */
+  }
+}
+.elem{
+color:#00FF00;
+font-size:larger;
+font-weight:bold;
+}
+.elem:hover
+{
+color:red;
+cursor:pointer;
+}
+.icon-link {
+  color: white;
+  font-size: 2rem;
+  margin: 10px;
+  transition: color 0.3s ease, transform 0.3s ease; /* Added smooth scaling transition */
+}
+
+.icon-link:hover {
+  color: #00FF00; /* Change color to green on hover */
+  transform: scale(1.1); /* Scale up the icon by 10% on hover */
+}

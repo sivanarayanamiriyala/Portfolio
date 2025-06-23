@@ -1,0 +1,107 @@
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Desktop Navbar Style */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20vh;
+  padding: 0 20px;
+  background-color: #333;
+}
+
+.para {
+  color: #3c3c;
+  font-size: 2.5vw;
+  font-weight: bolder;
+  padding: 20px;
+}
+
+.para:hover {
+  color: red;
+}
+
+/* Buttons for Desktop */
+.hover-button {
+  background-color: #3c3c;
+  color: white;
+  padding: 10px;
+  display: inline-block;
+  white-space: nowrap;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.hover-button:hover {
+  background-color: red;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 50px;
+  margin: 30px;
+  padding: 20px;
+}
+
+/* Mobile-specific styles */
+.hamburger {
+  display: none; /* Hidden by default, visible only on mobile */
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 4px;
+}
+
+/* Mobile Styles (Below 768px) */
+@media (max-width: 768px) {
+  .navbar {
+    height: auto;
+    padding: 10px 20px;
+    justify-content: space-between;
+  }
+
+  /* Show hamburger on mobile */
+  .hamburger {
+    display: flex;
+  }
+
+  /* Hide the navigation buttons by default on mobile */
+  .nav-buttons {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    gap: 15px;
+  }
+
+  /* Display nav buttons when menu is open */
+  .nav-buttons.open {
+    display: flex;
+  }
+
+  .hover-button {
+    text-align: center;
+    width: 100%;
+  }
+
+  .para {
+    font-size: 5vw; /* Adjust font size for mobile */
+  }
+}

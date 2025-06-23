@@ -1,0 +1,51 @@
+/* Basic styling for project frame */
+.project-frame {
+  display: flex;
+  align-items: center;
+  margin: 30px 0;
+  gap: 20px;
+}
+
+.project-frame img {
+  max-width: 300px;
+  max-height: 200px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.project-details {
+  max-width: 500px;
+  color: white;
+}
+
+/* Alternate float directions for larger screens */
+.project-frame.left {
+  flex-direction: row;
+}
+
+.project-frame.right {
+  flex-direction: row-reverse;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .project-frame {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .project-frame.left,
+  .project-frame.right {
+    flex-direction: column;
+  }
+
+  .project-frame img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .project-details {
+    max-width: 100%;
+    margin-top: 10px;
+  }
+}

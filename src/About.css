@@ -1,0 +1,47 @@
+/* For desktop and larger screens */
+.about-container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  height: 80vh;
+  gap: 50px;
+  padding: 20px;
+}
+
+.about-text {
+  color: white;
+  font-size: 20px;
+  line-height: 45px;
+  text-align: center;
+}
+
+.about-code {
+  width: 50vw;
+  margin-right: 20px;
+}
+
+p {
+  font-family: 'Poppins', sans-serif; /* Attractive and modern font */
+}
+
+/* For mobile devices and smaller screens */
+@media (max-width: 768px) {
+  .about-container {
+    display: flex;
+    flex-direction: column; /* Stack content vertically on mobile */
+    align-items: center;
+    height: auto;
+    gap: 20px;
+  }
+
+  .about-code {
+    width: 90vw; /* Full width on mobile */
+    margin-right: 0;
+  }
+
+  .about-text {
+    font-size: 18px;
+    padding: 10px;
+    line-height: 35px;
+  }
+}

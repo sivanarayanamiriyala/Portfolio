@@ -1,0 +1,88 @@
+.download-resume {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.resume-button {
+  background-color: #00ff00; /* Attractive color */
+  color: white;
+  font-size: 18px;
+  padding: 15px 40px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.resume-button:hover {
+  background-color: red; /* Darker color on hover */
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.resume-button:focus {
+  outline: none;
+}
+
+.resume-button:active {
+  transform: scale(1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.projects-container {
+  margin: 20px;
+}
+
+.projects-title {
+  color: white;
+  font-size: 4vh;
+}
+
+.highlight {
+  font-size: 5vh;
+  color: #3c3;
+}
+
+.projects-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 40px;
+  justify-items: center; /* Centers the content inside each card */
+  margin-top: 20px;
+}
+	
+.certifications-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  margin: 0 40px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .projects-grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .certifications-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .certifications-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .projects-grid {
+    gap: 20px;
+  }
+}
