@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/sivanarayanamiriyala/Portfolio/static/css/main.651df066.css",
+    "main.js": "/sivanarayanamiriyala/Portfolio/static/js/main.764ce47f.js",
+    "static/js/488.be6ff623.chunk.js": "/sivanarayanamiriyala/Portfolio/static/js/488.be6ff623.chunk.js",
+    "static/media/wipro.png": "/sivanarayanamiriyala/Portfolio/static/media/wipro.853fdae7103b40ff1f7c.png",
+    "static/media/profilepic.jpeg": "/sivanarayanamiriyala/Portfolio/static/media/profilepic.3efac900b0bed04c263e.jpeg",
+    "static/media/react.png": "/sivanarayanamiriyala/Portfolio/static/media/react.2f2532db663fd5ec5f95.png",
+    "static/media/contactimage.png": "/sivanarayanamiriyala/Portfolio/static/media/contactimage.ff3b6deb75db3a3c08b8.png",
+    "static/media/kusalava.png": "/sivanarayanamiriyala/Portfolio/static/media/kusalava.af3353af3ec4cd0e8710.png",
+    "static/media/mysql.png": "/sivanarayanamiriyala/Portfolio/static/media/mysql.c10b5bc47b47f99e1ff1.png",
+    "static/media/flask.png": "/sivanarayanamiriyala/Portfolio/static/media/flask.a513ea1d978a3bef2c16.png",
+    "static/media/diabetes.png": "/sivanarayanamiriyala/Portfolio/static/media/diabetes.7274b945afddba6cc0f6.png",
+    "static/media/movies.png": "/sivanarayanamiriyala/Portfolio/static/media/movies.9a1dfcd92c3a3d342d04.png",
+    "static/media/awscloudpractitioner.png": "/sivanarayanamiriyala/Portfolio/static/media/awscloudpractitioner.04f92f7ef992d6498205.png",
+    "static/media/java.png": "/sivanarayanamiriyala/Portfolio/static/media/java.5d5cffa04d820ba0644c.png",
+    "static/media/javascript.png": "/sivanarayanamiriyala/Portfolio/static/media/javascript.cf7522f436d6510da302.png",
+    "static/media/awsaipractitioner.png": "/sivanarayanamiriyala/Portfolio/static/media/awsaipractitioner.c382b9cea706c7531f2e.png",
+    "static/media/python.png": "/sivanarayanamiriyala/Portfolio/static/media/python.f7f12e1bf59e577656a2.png",
+    "static/media/aws.png": "/sivanarayanamiriyala/Portfolio/static/media/aws.a59d5ca6b3b99d8d7b61.png",
+    "index.html": "/sivanarayanamiriyala/Portfolio/index.html",
+    "main.651df066.css.map": "/sivanarayanamiriyala/Portfolio/static/css/main.651df066.css.map",
+    "main.764ce47f.js.map": "/sivanarayanamiriyala/Portfolio/static/js/main.764ce47f.js.map",
+    "488.be6ff623.chunk.js.map": "/sivanarayanamiriyala/Portfolio/static/js/488.be6ff623.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.651df066.css",
+    "static/js/main.764ce47f.js"
+  ]
+}
