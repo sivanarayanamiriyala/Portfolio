@@ -40,6 +40,8 @@
       "last 1 safari version"
     ]
   },
+  "homepage": "https://github.com/sivanarayanamiriyala/Portfolio"
+  ,
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   }
